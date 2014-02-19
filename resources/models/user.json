@@ -1,0 +1,18 @@
+{
+    "username":"username",
+    "email":"email@email.com",
+    "password":"password",
+    "avatar":"image.jpg",
+    "first_name":"first_name",
+    "secound_name":"secound_name",
+    "bio":"bio",
+    "profession":"profession",
+    "company":"company",
+    "socials":["github", "twitter", "facebook", "gplus"],
+    "city":"city",
+    "state":"state",
+    "country":"country",
+    "date":"01/01/9999",
+    "events": ["as7d8asd","as7d8asd"],
+    "calls": ["as7d8asd","as7d8asd"]
+}

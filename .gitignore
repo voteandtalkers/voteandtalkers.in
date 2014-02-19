@@ -1,3 +1,5 @@
 .DS_Store
+production/
+test/
 node_modules/
 .sass-cache/

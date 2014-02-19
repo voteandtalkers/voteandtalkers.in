@@ -1,0 +1,143 @@
+// user
+{
+    "username":"username",
+    "email":"email@email.com",
+    "password":"password",
+    "avatar":"image.jpg",
+    "first_name":"first_name",
+    "secound_name":"secound_name",
+    "bio":"bio",
+    "profession":"profession",
+    "company":"company",
+    "socials":["github", "twitter", "facebook", "gplus"],
+    "city":"city",
+    "state":"state",
+    "country":"country",
+    "date":"01/01/9999",
+    "events": ["as7d8asd","as7d8asd"],
+    "calls": ["as7d8asd","as7d8asd"]
+}
+
+// event
+{
+    "name":"name",
+    "logo":"image.jpg",
+    "description":"Lorem ipsum dolor.",
+    "country":"country",
+    "organizers":[
+        {
+            "name":"name",
+            "email":"email@email.com",
+            "social":"github or twitter or facebook or gplus"
+        },
+        {
+            "name":"name",
+            "email":"email@email.com",
+            "social":"github or twitter or facebook or gplus"
+        }
+    ],
+    "contact":"contact",
+    "links":["github", "twitter", "facebook", "gplus", "site"],
+    "date":"01/01/9999",
+    "edition":"edition",
+    "price": 100,
+    "like_function":true,
+    "count_likes":111,
+    "count_views":111,
+    "count_comments":111,
+    "date":"01/01/9999",
+    "calls":[
+                {
+                    "name":"name",
+                    "user_first_name":"first_name",
+                    "user_secound_name":"secound_name",
+                    "description":"description",
+                    "user_bio":"Lorem ipsum dolor.",
+                    "user_profession":"profession",
+                    "user_company":"company",
+                    "user_contacts":["github", "twitter", "facebook", "gplus","email"],
+                    "user_city":"city",
+                    "costs":"costs",
+                    "notes":"Lorem ipsum dolor.",
+                    "count_likes":111,
+                    "count_comments":111,
+                    "date":"01/01/9999",
+                    "comments":[
+                        {
+                            "username":"username",
+                            "comment":"Lorem ipsum dolor.",
+                            "date":"01/01/9999",
+                        },
+                        {
+                            "username":"username",
+                            "comment":"Lorem ipsum dolor.",
+                            "date":"01/01/9999"
+                        }
+                    ]
+                },
+                {
+                    "name":"name",
+                    "user_first_name":"first_name",
+                    "user_secound_name":"secound_name",
+                    "description":"description",
+                    "user_bio":"Lorem ipsum dolor.",
+                    "user_profession":"profession",
+                    "user_company":"company",
+                    "user_contacts":["github", "twitter", "facebook", "gplus","email"],
+                    "user_city":"city",
+                    "costs":"costs",
+                    "notes":"Lorem ipsum dolor.",
+                    "count_likes":111,
+                    "count_comments":111,
+                    "date":"01/01/9999",
+                    "comments":[]
+                }
+    ],
+    "comments":[
+        {
+            "first_name":"first_name",
+            "last_name":"last_name",
+            "comment":"Lorem ipsum dolor.",
+            "date":"01/01/9999"
+        },
+        {
+            "first_name":"first_name",
+            "last_name":"last_name",
+            "comment":"Lorem ipsum dolor.",
+            "date":"01/01/9999"
+        }
+    ]
+}
+
+// call
+{
+    "event_id":"98as7da8sd",
+    "name":"name",
+    "user_first_name":"first_name",
+    "user_secound_name":"secound_name",
+    "description":"description",
+    "user_bio":"Lorem ipsum dolor.",
+    "user_profession":"profession",
+    "user_company":"company",
+    "user_contacts":["github", "twitter", "facebook", "gplus","email"],
+    "user_city":"city",
+    "costs":"costs",
+    "notes":"Lorem ipsum dolor.",
+    "count_likes":111,
+    "count_comments":111,
+    "date":"01/01/9999",
+    "comments":[
+        {
+            "first_name":"first_name",
+            "last_name":"last_name",
+            "comment":"Lorem ipsum dolor.",
+            "date":"01/01/9999",
+        },
+        {
+            "first_name":"first_name",
+            "last_name":"last_name",
+            "comment":"Lorem ipsum dolor.",
+            "date":"01/01/9999"
+        }
+    ]
+}
