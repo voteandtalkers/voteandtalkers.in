@@ -10,7 +10,7 @@ var gulp = require('gulp'),
     livereload = require('gulp-livereload');
 
 /**
- * Default Task
+ * Default Task with Watch
  * run all tasks for development
  * >> List
  * @task: watch
@@ -26,7 +26,7 @@ gulp.task('default', function () {
         .pipe(gulp.dest('./development/public/stylesheets'))
         .pipe(livereload());
 
-    gulp.src('./development/public/stylesheets/**/*.*', { read: false })
+    gulp.src('./development/public/stylesheets/*.css', { read: false })
         .pipe(watch())
         .pipe(plumber())
         .pipe(csso())

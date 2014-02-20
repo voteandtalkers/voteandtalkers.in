@@ -1,0 +1,15 @@
+POST - /user
+GET  - /user/:id
+PUT  - /user/:id
+DEL  - /user/:id
+
+POST - /event
+GET  - /events
+GET  - /event/:id
+PUT  - /event/:id
+DEL  - /event/:id
+
+POST - /call
+GET  - /call/:id
+PUT  - /call/:id
+DEL  - /call/:id

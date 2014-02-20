@@ -1,8 +1,11 @@
 {
     "name":"name",
     "logo":"image.jpg",
+    "url":"event-name",
     "description":"Lorem ipsum dolor.",
     "country":"country",
+    "city":"city",
+    "region":"region",
     "organizers":[
         {
             "name":"name",
@@ -24,9 +27,9 @@
     "count_likes":111,
     "count_views":111,
     "count_comments":111,
-    "date":"01/01/9999",
     "calls":[
                 {
+                    "event_id":"98as7da8sd",
                     "name":"name",
                     "user_first_name":"first_name",
                     "user_secound_name":"secound_name",
@@ -55,6 +58,7 @@
                     ]
                 },
                 {
+                    "event_id":"98as7da8sd",
                     "name":"name",
                     "user_first_name":"first_name",
                     "user_secound_name":"secound_name",
@@ -76,6 +80,7 @@
         {
             "first_name":"first_name",
             "last_name":"last_name",
+            "email":"email@email.com"
             "comment":"Lorem ipsum dolor.",
             "date":"01/01/9999"
         },
