@@ -1,4 +1,5 @@
 module.exports = function(app) {
+var app = app.service;
 
 var Calls = app.models.calls;
 

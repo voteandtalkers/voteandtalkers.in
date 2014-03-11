@@ -26,11 +26,13 @@
     "country":"country",
     "organizers":[
         {
+            "user_id":"98as7da8sd",
             "name":"name",
             "email":"email@email.com",
             "social":"github or twitter or facebook or gplus"
         },
         {
+            "user_id":"98as7da8sd",
             "name":"name",
             "email":"email@email.com",
             "social":"github or twitter or facebook or gplus"
@@ -46,53 +48,7 @@
     "count_views":111,
     "count_comments":111,
     "date":"01/01/9999",
-    "calls":[
-                {
-                    "name":"name",
-                    "user_first_name":"first_name",
-                    "user_secound_name":"secound_name",
-                    "description":"description",
-                    "user_bio":"Lorem ipsum dolor.",
-                    "user_profession":"profession",
-                    "user_company":"company",
-                    "user_contacts":["github", "twitter", "facebook", "gplus","email"],
-                    "user_city":"city",
-                    "costs":"costs",
-                    "notes":"Lorem ipsum dolor.",
-                    "count_likes":111,
-                    "count_comments":111,
-                    "date":"01/01/9999",
-                    "comments":[
-                        {
-                            "username":"username",
-                            "comment":"Lorem ipsum dolor.",
-                            "date":"01/01/9999",
-                        },
-                        {
-                            "username":"username",
-                            "comment":"Lorem ipsum dolor.",
-                            "date":"01/01/9999"
-                        }
-                    ]
-                },
-                {
-                    "name":"name",
-                    "user_first_name":"first_name",
-                    "user_secound_name":"secound_name",
-                    "description":"description",
-                    "user_bio":"Lorem ipsum dolor.",
-                    "user_profession":"profession",
-                    "user_company":"company",
-                    "user_contacts":["github", "twitter", "facebook", "gplus","email"],
-                    "user_city":"city",
-                    "costs":"costs",
-                    "notes":"Lorem ipsum dolor.",
-                    "count_likes":111,
-                    "count_comments":111,
-                    "date":"01/01/9999",
-                    "comments":[]
-                }
-    ],
+    "calls":["98as7da8sd", "98as7da8sd"],
     "comments":[
         {
             "first_name":"first_name",

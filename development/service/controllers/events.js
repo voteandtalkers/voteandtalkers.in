@@ -1,11 +1,9 @@
 module.exports = function(app) {
+var app = app.service;
 
 var Events = app.models.events;
 
 var EventsController = {
-    index: function(req, res) {
-        res.render('events/index');
-    },
     events: function(req, res) {
         app.helpers.database.getRecords(req, res, Events);
     },

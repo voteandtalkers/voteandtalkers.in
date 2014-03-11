@@ -1,8 +1,12 @@
 module.exports = function(app) {
+var app = app.service;
 
 var Users = app.models.users;
 
 var UsersController = {
+    users: function(req, res) {
+        app.helpers.database.getRecords(req, res, Users);
+    },
     user: function(req, res) {
         var query = {_id: req.params.id};
         app.helpers.database.getRecords(req, res, Users, query);
